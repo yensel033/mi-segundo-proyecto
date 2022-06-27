@@ -93,6 +93,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+ background-image: url(/imgs/hero.jpg);
 }
 
 #hero h1{
@@ -142,6 +143,7 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     ,url("imgs/front-end.jpg");
+     background-image: url(/imgs/front-end.jpg);
 
 }
 
@@ -167,11 +169,15 @@ header a:hover{
 #caracteristicas .container{
     text-align: center;
     padding: 250px 12px;
+    background-image: url(/imgs/somos-proya.jpg);
+    background-size: cover;
 }
 
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
+    color: white;
+    font-size: 30px;
 }
 
 #final{
@@ -319,6 +325,7 @@ footer .container{
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;
+       
     }
 
     #caracteristicas .container{
